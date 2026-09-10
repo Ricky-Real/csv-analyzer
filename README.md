@@ -34,20 +34,22 @@ python3 main.py
 ## Example:
 
 ### Input:
-
+```
 name,age,city
 Peter,21,Bratislava
 Martin,25,Kosice
 Anna,19,Zilina
-Lucia,32,Nitra
+Lucia,32,Nitra 
 Tomas,28,Presov
+```
 
 ### Output:
-
+```
 Number of records: 5
 Average age: 25.0
 Youngest: 19
 Oldest: 32
+```
 
 ## Author
 
