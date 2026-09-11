@@ -13,11 +13,14 @@ class Reader():
     
     def get_column(self, key: str | None = None):
         if key is None:
-            return "Please provide a key"
+            print("Please provide a key")
+            return
         try:
             line = self.data[0][key]
-        except KeyError:
-            return "Please provide a VALID key"
+
+        except KeyError as e:
+            print("Please provide a VALID key")
+            return 
         
         new_list = []
         for line in self.data:
@@ -44,7 +47,7 @@ class Reader():
 if __name__ == "__main__":
     reader = Reader("example.csv")
     names = reader.get_column("name")
-    ages = reader.get_column("age")
+    ages = reader.get_column("height")
     print(f"Number of records {reader.records}")
     print(f"Average age: {reader.average_val(ages, 1)}")
     print(f"Youngest: {reader.min_item(ages)}")
