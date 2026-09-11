@@ -15,7 +15,7 @@ class Reader():
         if key is None:
             return "Please provide a key"
         try:
-            line = line[key]
+            line = self.data[0][key]
         except KeyError:
             return "Please provide a VALID key"
         
