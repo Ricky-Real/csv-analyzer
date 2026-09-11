@@ -47,8 +47,11 @@ class Reader():
 if __name__ == "__main__":
     reader = Reader("example.csv")
     names = reader.get_column("name")
-    ages = reader.get_column("height")
+    ages = reader.get_column("age")
+    cities = reader.get_column("city")
     print(f"Number of records {reader.records}")
     print(f"Average age: {reader.average_val(ages, 1)}")
     print(f"Youngest: {reader.min_item(ages)}")
-    print(f"Oldest: {reader.max_item(ages)}")
+    print(f"Oldest: {reader.max_item(ages)} \n")
+    for name, age, city in zip(names, ages, cities):
+        print(f"Person {name} is {age} years old and lives in {city}.")

@@ -45,10 +45,16 @@ Tomas,28,Presov
 
 ### Output:
 ```
-Number of records: 5
+Number of records 5
 Average age: 25.0
 Youngest: 19
-Oldest: 32
+Oldest: 32 
+
+Person Peter is 21 years old and lives in Bratislava.
+Person Martin is 25 years old and lives in Kosice.
+Person Anna is 19 years old and lives in Zilina.
+Person Lucia is 32 years old and lives in Nitra.
+Person Tomas is 28 years old and lives in Presov.
 ```
 
 ## Author
