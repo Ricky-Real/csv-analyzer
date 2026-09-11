@@ -8,7 +8,7 @@ A simple program that analyzes data from a CSV file.
 - Finds the minimal value of a column
 - Finds the maximal value of a column
 
-## Requirements
+## Requirement
 - Python 3
 
 ## How to run
