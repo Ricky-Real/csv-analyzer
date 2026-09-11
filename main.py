@@ -14,13 +14,13 @@ class Reader():
     def get_column(self, key: str | None = None):
         if key is None:
             print("Please provide a key")
-            return
+            return []
         try:
             line = self.data[0][key]
 
         except KeyError as e:
             print("Please provide a VALID key")
-            return 
+            return []
         
         new_list = []
         for line in self.data:
