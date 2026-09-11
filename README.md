@@ -1,12 +1,12 @@
 # CSV Analyzer
 
-A simple program that analyzes age data from a CSV file.
+A simple program that analyzes data from a CSV file.
 
 ## Features
 - Counts the number of records
-- Calculates the average age
-- Finds the youngest age
-- Finds the oldest age
+- Calculates the average of a column
+- Finds the minimal value of a column
+- Finds the maximal value of a column
 
 ## Requirements
 - Python 3
