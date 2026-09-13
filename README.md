@@ -56,7 +56,5 @@ Person Anna is 19 years old and lives in Zilina.
 Person Lucia is 32 years old and lives in Nitra.
 Person Tomas is 28 years old and lives in Presov.
 ```
-
-## Author
-
-Ricky Real
+## License
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
